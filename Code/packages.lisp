@@ -2,4 +2,6 @@
 
 (defpackage #:accouterments
   (:use #:common-lisp)
+  (:local-nicknames (#:ico #:iconoclast)
+                    (#:bld #:iconoclast-builder))
   (:export))
